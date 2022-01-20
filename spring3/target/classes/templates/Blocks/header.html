@@ -1,0 +1,176 @@
+<div th:fragment="header">
+    <div class="header">
+        <div class="header__section">
+            <div class="header__item headerlogo">
+                <div class="header__item headerButton"><a href="Account">
+                    Account</a></div>
+            </div>
+            <div class="header__item headerButton"><a href="/">
+                Home</a></div>
+            <div class="header__item headerButton"><a href="Shop">
+                Shop</a></div>
+            <div class="header__item headerButton"><a href="feedback.html">
+                Feedbacks</a></div>
+            <div class="header__item headerButton"><a href="contact.html">
+                Contact us</a></div>
+        </div>
+        <div class="header__section">
+            <div class="header__item headerButton"><a href="log.html">
+                Log in</a></div>
+            <div class="header__item headerButton"><a href="reg.html">
+                Register</a></div>
+        </div>
+    </div>
+</div>
+<style>
+    a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background: rgb(187, 187, 187);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background:rgb(0, 0, 0);
+    color: rgb(83, 83, 83);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header__section{
+    display: flex;
+    align-items: center;
+}
+.header__item{
+    padding: 15px 10px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.header__item:hover{
+    background-color: dimgrey;
+    border-radius: 10px;
+    -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.2);
+
+}
+.headerlogo{
+    font-weight: bold;
+}
+.headerButton{
+    cursor:pointer;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 250%;
+    margin-left: 40px;
+    background: white;
+    max-width: 250px;
+        border-bottom-color: black;
+        border-bottom-style: solid;
+        border-bottom-width: 8px;
+        border-right-color: black;
+        border-right-style: solid;
+        border-right-width: 12px;
+        padding: 7px;
+   }
+   h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 250%;
+    margin-left: 75%;
+    background: white;
+    max-width: 250px;
+        border-bottom-color: rgb(0, 0, 0);
+        border-bottom-style: solid;
+        border-bottom-width: 8px;
+        border-left-color: rgb(0, 0, 0);
+        border-left-style: solid;
+        border-left-width: 12px;
+        padding: 7px;
+   }
+   h3{
+    margin-left: 60%;
+   }
+   h4{
+       margin-left: 15%;
+       margin-right: 15%;
+       border-left: 5px;
+       border-left-color: black;
+   }
+   h5{
+    margin-left: 0%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background:rgb(0, 0, 0);
+    color: rgb(211, 211, 211);
+
+
+   }
+.header1{
+    color: #696969;
+    border-top-color: rgb(0, 0, 0);
+    border-top-style: solid;
+    border-top-width: 8px;
+    padding: 17px;
+
+    border-right-color: rgb(0, 0, 0);
+    border-right-style: solid;
+    border-right-width: 50px;
+    padding: 17px;
+
+    border-bottom-color: rgb(112, 112, 112);;
+    border-bottom-style:double;
+    border-bottom-width: 6px;
+    padding: 17px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: rgb(83, 83, 83);
+    background: white;
+}
+.header2{
+    color: #696969;
+    border-top-color: rgb(0, 0, 0);
+    border-top-style: solid;
+    border-top-width: 8px;
+    padding: 17px;
+
+    border-left-color: rgb(0, 0, 0);
+    border-left-style: solid;
+    border-left-width: 50px;
+    padding: 17px;
+
+    border-bottom-color: black;
+    border-bottom-style:solid;
+    border-bottom-width: 8px;
+    padding: 17px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: rgb(83, 83, 83);
+    background: white;
+}
+.header__item1:hover{
+    box-shadow:
+    1px 1px #696969,
+    2px 2px #696969,
+    3px 3px #696969,
+    4px 4px #696969,
+    5px 5px #696969,
+    6px 6px #696969,
+    7px 7px #696969;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+</style>
